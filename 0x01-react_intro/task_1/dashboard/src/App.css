@@ -1,0 +1,30 @@
+.App-header {
+  display: flex;
+  color: #e0354b;
+  align-items: center;
+  border-bottom: thick solid #e0354b;
+  font-family: Verdana, sans-serif;
+}
+
+.App-header img {
+  width: 144px;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+.App-body {
+  padding: 16px 24px;
+  font-family:Tahoma, sans-serif;
+}
+
+.App-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  border-top: thick solid #e0354b;
+  font-style: italic;
+  font-weight: bold;
+}
