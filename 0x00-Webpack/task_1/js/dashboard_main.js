@@ -13,6 +13,6 @@ let count = 0;
  const updateCounter = _.debounce(function() {
     count++;
     $("#count").text('${count} clocks on the button');
- }, 300);
+ }, 500);
 
  $("button").on('click', updateCounter);
