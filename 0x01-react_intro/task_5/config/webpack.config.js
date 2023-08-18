@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.export={
     mode: 'development',
@@ -50,7 +51,8 @@ module.export={
       }),
         new CleanWebpackPlugin()
       ],
-    devtool: 'inli
+    devtool: 'inline-source-map',
+
     
     
 }
