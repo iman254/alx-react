@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    color: #e0354b;
+    align-items: center;
+    border-bottom: thick solid #e0354b;
+    font-family: Verdana, sans-serif;
+  }
+  
+  .header img {
+    width: 144px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
